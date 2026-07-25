@@ -946,7 +946,7 @@
       if (invitadoActual) {
         const { nombre, cupo } = invitadoActual;
         if (saludoElem) {
-          saludoElem.textContent = `¡Hola ${nombre}! Tu invitación es válida para ${cupo} persona${cupo > 1 ? 's' : ''}.🎉 `;
+          saludoElem.textContent = `¡Hola ${nombre}! Tu invitación es válida para ${cupo} persona${cupo > 1 ? 's' : ''}.`;
           saludoElem.style.display = 'block';
         }
         if (inputNombre) inputNombre.value = nombre;
